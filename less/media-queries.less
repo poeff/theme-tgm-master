@@ -1,0 +1,153 @@
+//
+// Media queries
+// --------------------------------------------------
+@media (max-width: 320px) {
+    #dgx-donate-form-donation-section input.horiz:nth-child(4) {
+      margin-left: 0;
+    }
+    #dgx-donate-form-payment-section:after {
+        left: 15px;
+        top: auto;
+        bottom: -15px;
+    }
+
+}
+
+
+/* Extra Small devices (phones, 768px and down) */
+@media (max-width: @screen-xs-max) {
+    .site-header {
+        // max-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        .site-title .festival-year > span {
+            background: none !important;
+        }
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    // .site-header {
+    //     padding-top: 40px;
+
+    // }
+
+    #logo-wrap img {
+        left: 15px;
+        top: -10px;
+        width: 90px;
+        height: auto;
+        margin: 0;
+    }
+    .page-title {
+        font-size: 4em;
+        padding: 8px 0 0 42px;
+    }
+    .tagline {
+      font-size: 1.29em;
+
+      font-weight: 300;
+        padding: 4px 0 4px 45px;
+    }
+    .page-header > .entry-title {
+        font-size: 46px;
+    }
+    .entry-content {
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .social-links {
+        text-align: right;
+    }
+    span.wpcf7-list-item {
+    margin-left: 1.5em;
+    }
+    span.wpcf7-list-item.first {
+        margin-left: 0;
+    }
+
+    #dgx-donate-form-donor-section {
+      label {
+        display: inline-block;
+        float: left;
+        width: 24%;
+      }
+      input[type="text"] {
+        width: 75%;
+        float: left;
+      }
+    }
+
+
+}
+@media (min-width: 538px) and (max-width: 768px) {
+    .tagline {
+        padding-left: 60px;
+    }
+}
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .site-header {
+
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 1.111em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    // #logo-wrap img {
+    //     left: -18px;
+    //     top: -16px;
+    //     width: 165px;
+    // }
+    #logo-wrap img {
+      left: -20px;
+      top: -16px;
+      width: 185px;
+    }
+    .page-title {
+        font-size: 81px;
+        padding-left: 50px
+    }
+    .tagline {
+      font-size: 26px;
+      padding-left: 55px;
+    }
+
+    .entry-content,
+    .page-header > .entry-title {
+      padding-left: 140px;
+    }
+    .home .entry-content {
+      padding-left: 150px;
+      padding-top: 10px;
+    }
+    .widget-area {
+        padding-left: 30px;
+        border-left: 1px solid @grey;
+        padding-top: 0;
+        border-top: 0;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+    .site-header {
+
+    }
+    .post-navigation {
+        .nav-next {
+            text-align: right;
+        }
+    }
+}

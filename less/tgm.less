@@ -1,0 +1,231 @@
+
+/*!
+ * POEFF Styles v1.0
+ */
+
+@import "variables.less";
+@import "typography.less";
+@import "images.less";
+@import "buttons.less";
+@import "form.less";
+
+@import "embed.less";
+@import "menu.less";
+
+@import "header.less";
+@import "page-content.less";
+@import "footer.less";
+
+@import "media-queries.less";
+
+
+
+
+// Begin Styles
+// --------------------------------------------------
+// body {
+//     font-family: @sans-serif;
+//     font-size: @base-font;
+//     line-height: @base-leading;
+//     color: @key;
+//     background-color: @matte;
+// }
+
+// h1, h2, h3, h4, h5, h6 { 
+//     font-family: @futura-condensed; font-weight: 400; 
+// }
+// .futura { 
+//     font-family: @futura; 
+// }
+// .garamond { 
+//     font-family: @garamond;
+// }
+
+// a {
+//     color: @l-blue;
+//     text-decoration: none;
+//     &:hover,
+//     &:focus,
+//     &:active {
+//         color: @blue;
+//         text-decoration: underline;
+//     }
+// }
+
+// .btn-primary {
+//     background-color: @l-blue;
+//     &:hover, 
+//     &:focus,  
+//     &.active {
+//         background-color: @blue;    
+//     }    
+// }
+
+// // Forms
+// form {
+//     font-size: 0.889em;
+//     label {
+//         font-weight: 400;
+//     }
+//     input[type="radio"],
+//     input[type="checkbox"] {
+//         margin: -4px 8px 0 0;
+//         line-height: normal;
+//     }
+// }
+
+// // Header
+// .site-header {
+//     padding-top: 15px;
+//     .page-title {
+//         font-size: 3.278em;
+//         line-height: 1;
+//         color: @blue;
+//         margin: 0;
+//     }
+//     .tagline {
+//         font-size: 2.000em;
+//         line-height: 1;
+//         letter-spacing: 0.030em;
+//         margin-top: 0;
+//     }
+//     p {
+//         font-size: 0.889em;
+//         line-height: 1.5;
+//         font-weight: 600;
+//         color: @blue;
+//     }
+// }
+
+
+
+// #logo-wrap {
+//   padding-top: 50px;
+// }
+// .site-header .page-title {
+//   // color: #234f86;
+//   font-size: 82px;
+//   line-height: 1;
+//   margin: 0;
+//   color: #f4cf5a;
+//   font-size: 73px;
+//   letter-spacing: 6px;
+//   text-shadow: -2px 1px 0 rgba(0, 0, 0, 0.33);
+// }
+// .home .site-header .page-title {
+//     font-size: 150px;
+//     letter-spacing: 8px;
+//     text-shadow: -3px 2px 0 rgba(0, 0, 0, 0.33);
+// }
+// #logo-wrap img {
+//   width: 74px;
+//   height: auto;
+// }
+// .home #logo-wrap img {
+//   width: auto;
+// }
+// .site-header .tagline {
+//   color: #006699;
+//   font-family: "futura-pt",sans-serif;
+//   font-size: 26px;
+//   font-weight: 300;
+// }
+// .breadcrumb {
+//   display: none;
+// }
+
+
+
+// // Page Styles
+// #content {
+//     padding-top: 15px;
+//     .hero {
+//         position: relative;
+//         z-index: 1;
+//         margin-bottom: 40px;
+//     }
+//     .donation-form {
+//         position: relative;
+//         z-index: 2;
+//         top: -100px;
+//         padding: 30px;
+//         margin: 0 15px 15px 15px;
+//         background: #fff;
+//         border-radius: 10px;
+//         box-shadow: 0 0 6px fade(@black, 20%);
+//         #dgx-donate-form {
+//             #dgx-donate-container {
+//                 padding: 0;
+//                 margin: 0;
+//                 background-color: #fff;
+//                 .dgx-donate-form-section {
+//                     border: 0;
+//                     padding: 0;
+//                     margin: 0 0 15px;
+//                     input.horiz {
+//                         margin-left: 20px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // Footer
+// .site-footer {
+//     padding: 20px 0;
+//     font-size: 0.778em;
+//     li > a {
+//         border-left: 1px solid @key;
+//         padding-left: 12px;
+//     }
+// }
+
+
+// // Media Queries
+// @media (max-width: @screen-xs-max) {
+//     .site-header {
+//         .logo {
+//             width: 160px;
+//             height: auto;
+//             margin: 0 auto 10px;
+//         }
+//         .page-title,
+//         .tagline {
+//             text-align: center;
+//             white-space: nowrap;
+//         }
+//         .page-title {
+//             font-size: 2.000em;
+//         }
+//         .tagline {
+//             font-size: 1.195em;
+//         }
+//     }
+//     #content {
+//         .hero {
+//             margin-bottom: 15px;
+//         }
+//         .donation-form {
+//             top: auto;
+//             margin: 15px 0;
+//             #dgx-donate-form {
+//                 #dgx-donate-container {
+//                     .dgx-donate-form-section {
+//                         input[type="radio"] {
+//                             margin: -4px 4px 0 0;
+//                         }
+//                         input.horiz {
+//                             margin-left: 8px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media (max-width: @screen-sm-max) {
+//     .dgx-donate-form-section input.horiz:nth-child(4) {
+//         margin-left: 0;
+//     }
+// }
