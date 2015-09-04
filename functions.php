@@ -29,8 +29,8 @@ function custom_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts', 100 );
 
-
-
+add_filter( 'wp_feed_cache_transient_lifetime', 
+   create_function('$a', 'return 600;') );
 
 // Add ACF Options Page
 if(function_exists('acf_add_options_page')) { 
